@@ -1,0 +1,18 @@
+package pp;
+
+public class Emp {
+private int id;  //id name is property of Emp class
+private String name;
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+}

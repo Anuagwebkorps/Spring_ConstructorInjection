@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+ <bean id="e" class="pp.Empp">
+ 	<constructor-arg value="101" type="int"></constructor-arg>
+ 	<constructor-arg value="jay"></constructor-arg>
+ <!-- constructor-arg element invokes the constructor -->	
+ </bean>             
+</beans>
+<!-- Dependency Injection (DI) is a design pattern that removes the dependency 
+from the programming code so that it can be easy to manage and test the
+ application. 
+-->
+<!-- We can inject the dependency by constructor. The <constructor-arg> 
+subelement of <bean> is used for constructor injection -->
